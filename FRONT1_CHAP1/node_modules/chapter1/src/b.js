@@ -39,10 +39,10 @@ class HardWork {
         const currentTask = this._tasks[i];
         currentTask();
         i++;
-        requestAnimationFrame(nextTask); // 다음 태스크를 요청
+        requestAnimationFrame(nextTask); // 다음 테스크를 요청
       }
     };
-    requestAnimationFrame(nextTask); // 최초의 태스크 실행
+    requestAnimationFrame(nextTask); // 최초의 테스크 실행
   }
 
   // do() 이외의 메서드는 수정하지마세요
